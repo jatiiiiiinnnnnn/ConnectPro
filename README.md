@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Professional Networking App - ConnectPro
 
-## Getting Started
+ConnectPro is a professional networking application built with React and TypeScript. It provides a platform for users to connect, share updates, explore job opportunities, join groups, and participate in events. The app also supports a dark mode for better user experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. **Dark Mode**
+- Toggle between light and dark themes for a personalized user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. **Navigation Tabs**
+- **Feed**: Share updates, insights, and interact with posts.
+- **Jobs**: Explore job opportunities with detailed descriptions and apply directly.
+- **Network**: Connect with professionals, view suggestions, and manage connection requests.
+- **Events**: Discover and register for upcoming events or host your own.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. **Post Management**
+- Create posts with text content.
+- Like, comment, and share posts.
+- Expand and collapse job descriptions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. **Profile Management**
+- View and edit your profile.
+- Track connections, posts, and profile views.
 
-## Learn More
+### 5. **Connections**
+- View recent connections and suggestions for people you may know.
+- Accept or ignore connection requests.
 
-To learn more about Next.js, take a look at the following resources:
+### 6. **Groups**
+- Explore and join professional groups based on your interests.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 7. **Events**
+- Discover featured and upcoming events.
+- Register for events or create your own.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 8. **Trending Topics**
+- Stay updated with trending topics in the professional world.
 
-## Deploy on Vercel
+### 9. **Premium Features**
+- Upgrade to premium for exclusive features like advanced job search filters, direct messaging to hiring managers, and more.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
+- **Frontend**: React, TypeScript
+- **Icons**: Lucide React
+- **Styling**: Tailwind CSS
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## How to Run
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm run dev`.
+4. Open the app in your browser at `http://localhost:3000`.
+
+## Folder Structure
